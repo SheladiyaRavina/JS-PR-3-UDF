@@ -1,0 +1,31 @@
+<script type="text/javascript">
+    
+    function vote(){
+     var age=parseInt(prompt("Enter Your Age:-"));
+    if(age==18){
+           return 1;
+       }else if(age<18){
+           return 2;
+       }else if(age>18 && age<=100){
+           return 3;
+       }else{
+           return 4;
+    }
+    }
+  
+    var ans=vote();
+        if(ans==1){
+            console.log("You Can also vote.");
+           document.write("You Can also vote.");
+        }else if(ans==2){
+            console.log("You Can Not vote.");
+           document.write("You Can Not vot.");
+        }else if(ans==3){
+            console.log("you can vote.");
+            document.write("you can vot.");
+        }else{
+            console.log("Invalid.");
+           document.write("Invalid.");
+        }
+   
+</script>

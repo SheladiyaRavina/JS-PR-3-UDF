@@ -1,0 +1,20 @@
+<script type="text/javascript">
+    var age=parseInt(prompt("Enter Your Age:-"));
+    function vote(age){
+       
+    if(age==18){
+            console.log("You Can also vote.");
+            document.write("You Can also vot.");
+        }else if(age<18){
+            console.log("You Can Not vote.");
+            document.write("You Can Not vot.");
+        }else if(age>18 && age<=100){
+            console.log("you can vote.");
+            document.write("you can vot.");
+        }else{
+            document.write("Invalid..");
+    }
+    }
+   
+    vote(age);
+</script>

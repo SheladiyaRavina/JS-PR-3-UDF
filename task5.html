@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    function calculator(){
+        var a=parseInt(prompt("Enter Value of a:-"));
+        var b=parseInt(prompt("Enter Value of b:-"));
+        var choice= (prompt("Enter your choice +,-,*,/:-"));
+
+    if(choice=='+'){
+        console.log("Addition is ="+(a+b));
+        document.write("<h2 style=color:red>Addition is="+(a+b)+"</h2>");
+    }else if(choice=='-'){
+        console.log("Substraction is ="+(a-b));
+        document.write("<h2 style=color:red>Substraction is="+(a-b)+"</h2>");
+    }else if(choice=='*'){
+        console.log("Multipalication is ="+(a*b));
+        document.write("<h2 style=color:red>Multipalication is="+(a*b)+"</h2>");
+    }else if(choice=='/'){
+        console.log("Division is ="+(a/b));
+        document.write("<h2 style=color:red>Division is="+(a/b)+"</h2>");
+    }else{
+        console.log("Invalid Choice..");
+        document.write("Invalid Choice..");
+    }
+    }
+    
+    calculator();
+</script>
